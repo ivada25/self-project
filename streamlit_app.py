@@ -2,7 +2,6 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier, StackingClassifier
 import streamlit as st
 import pandas as pd
-from component.nav import navbar
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
