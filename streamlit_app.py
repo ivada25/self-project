@@ -43,7 +43,7 @@ with tabs[0]:
 
     # Memastikan semua 11 fitur telah diinput
     if st.session_state.knn_current_index == len(fitur):
-        df = pd.read_excel('gamma_telescope.xlsx')
+        df = pd.read_csv('gamma_telescope.csv')
 
         # Menghapus kolom yang tidak relevan jika ada
         if 'Unnamed: 0' in df.columns:
