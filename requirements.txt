@@ -1,5 +1,4 @@
-streamlit
-scikit-learn
-pandas
-numpy
-openpyxl
+Numpy version: 1.24.2
+Pandas version: 1.5.3
+Streamlit version: 1.36.0
+Scikit-learn version: 1.5.0
