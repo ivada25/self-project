@@ -15,7 +15,7 @@ st.set_page_config(page_title="Pendat", layout="wide")
 fitur = ['fLength', 'fWidth', 'fSize', 'fConc', 'fConc1', 'fAsym', 'fM3Long', 'fM3Trans', 'fAlpha', 'fDist']
 
 # Tab Naive Bayes dan KNN
-tabs = st.tabs(["KNN Predict"])
+tabs = st.tabs(["Stacking Predict"])
 
 with tabs[0]:
     st.header('Prediksi Menggunakan Metode Stacking')
