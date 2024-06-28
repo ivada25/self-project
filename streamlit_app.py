@@ -15,10 +15,10 @@ st.set_page_config(page_title="Pendat", layout="wide")
 fitur = ['fLength', 'fWidth', 'fSize', 'fConc', 'fConc1', 'fAsym', 'fM3Long', 'fM3Trans', 'fAlpha', 'fDist']
 
 # Tab Naive Bayes dan KNN
-tabs = st.tabs(["Stacking Predict"])
+tabs = st.tabs(["KNN Predict"])
 
 with tabs[0]:
-    st.header('Prediksi Menggunakan Metode Stacking')
+    st.header('Prediksi Menggunakan Metode KNN')
 
     # Inisialisasi list di session state jika belum ada
     if 'knn_data' not in st.session_state:
